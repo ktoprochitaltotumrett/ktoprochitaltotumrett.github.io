@@ -1,0 +1,145 @@
+{
+  position: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+
+}
+header{
+  height: 900px;
+  background: url("../img/jpj.jpg") no-repeat;
+  background-size: cover;
+color: white;
+}
+nav {
+  padding-top: 40px;
+padding-bottom: 40px;
+border-bottom: 1px solid #A1A1A1;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item{
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.menu-item>a{
+text-decoration: none;
+color: white;
+}
+
+.header_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 260px;
+}
+
+.subtitle{
+font-family: Montserrat;
+font-weight: 500;
+font-size: 16px;
+
+}
+
+.main_title{
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.button{
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  width: 200px;
+  height: 45px;
+   border: none;
+   color: yellow;
+}
+/*-------------------------раздел о компании-------------------------*/
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_section{
+  text-align: center;
+  font-weight: bold;
+font-size: 36px;
+margin-top: 110px;
+margin-bottom: 50px;
+}
+.about>.text{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.pont{
+  display: flex;
+  margin-bottom: 55px;
+}
+.frog{
+  display: flex;
+  margin-right: 27px;
+}
+/*-------------------------раздел о высоких стандартах(они не очень высокие)-------------------------*/
+.bout {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-itej{
+   margin-right: 104px;
+list-style-type: none;
+margin-top: 160px;
+
+}
+.txte{
+  margin-right: 100px;
+list-style-type: none;
+margin-top: 160px;
+
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+}
+.img-count{
+  display: flex;
+  justify-content: space-around;
+}
+.textt{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+
+}
+.Our-projects{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+}
+.img-count>img{
+  width: 30px;
+height: 30px;
+margin-top: 15px;
+margin-right: 20px;
+}
