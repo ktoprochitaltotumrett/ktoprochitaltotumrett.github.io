@@ -12,10 +12,11 @@ font-family: 'Montserrat', sans-serif;
 
 }
 header{
-  height: 900px;
+  min-height: 900px;
   background: url("../img/jpj.jpg") no-repeat;
   background-size: cover;
 color: white;
+padding-bottom: 2%;
 }
 nav {
   padding-top: 40px;
@@ -141,4 +142,39 @@ color: #999999;
   width: 30px;
 height: 30px;
 margin-right: 20px;
+}
+@media (max-width:1100px) and (min-width:700px){
+
+.bout{
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+}
+@media (max-width:699px) and (min-width:300px){
+
+.bout{
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.box{
+  display: none;
+}
+.bout>img{
+  width: 300px;
+  height: 300px;
+}
+.pont{
+  flex-direction: column;
+}
+.frog{
+  margin-bottom: 20px;
+}
+.main_title{
+font-size: 30px;
+  }
+  .subtitle{
+    text-align: center;
+  }
 }
