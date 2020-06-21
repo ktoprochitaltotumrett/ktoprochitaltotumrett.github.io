@@ -37,7 +37,10 @@ border-bottom: 1px solid #A1A1A1;
 text-decoration: none;
 color: white;
 }
-
+.menu-item>a:hover{
+  color: blue;
+  font-weight: bold;
+}
 .header_content{
   display: flex;
   flex-direction: column;
@@ -49,6 +52,8 @@ color: white;
 font-family: Montserrat;
 font-weight: 500;
 font-size: 16px;
+text-shadow: 1px 1px 2px black;
+font-weight: bold;
 
 }
 
@@ -59,6 +64,8 @@ font-size: 16px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
+  text-shadow: 3px 3px 6px black;
+
 
 }
 

@@ -1,0 +1,22 @@
+body{
+  background: blue;
+}
+li{
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  margin: 10px;
+  list-style: none;
+  animation: shake .7s linear alternate infinite;
+
+}
+@keyframes shake{
+  100%{
+  transform: translate(-30px);
+}
+}
+ul{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
